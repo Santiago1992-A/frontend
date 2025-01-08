@@ -1,0 +1,45 @@
+/* src/components/styles/TaskCreate.module.css */
+.task-create-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.task-create-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-create-form div {
+  margin-bottom: 15px;
+}
+
+.task-create-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.task-create-form input,
+.task-create-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-create-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(86, 16, 151);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-create-form button:hover {
+  background-color: rgb(86, 16, 151);
+}

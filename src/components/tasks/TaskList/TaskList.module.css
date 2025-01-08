@@ -1,0 +1,94 @@
+.task-list-container {
+  padding: 20px;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.task-title,
+.task-description,
+.task-dueDate,
+.task-status {
+  font-weight: bold;
+}
+
+.task-title span,
+.task-description span,
+.task-dueDate span,
+.task-status span {
+  font-weight: normal;
+}
+
+.task-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eliminar,
+.editar {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.eliminar {
+  background-color: #ff0000;
+  color: black;
+}
+
+.editar {
+  background-color: #ffff00;
+  color: black;
+}
+
+.editar:hover {
+  background-color: #eeee19;
+  border: solid 1px #ffff00;
+}
+
+.eliminar:hover {
+  background-color: rgb(245, 19, 19);
+  border: solid 1px red;
+}
+
+.create-task-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.create-task-link:hover {
+  background-color: #45a049;
+  transform: scale(1.02);
+}

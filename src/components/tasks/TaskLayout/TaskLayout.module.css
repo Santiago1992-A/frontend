@@ -1,0 +1,22 @@
+.task-layout-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.logout-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #ff2e45;
+}
