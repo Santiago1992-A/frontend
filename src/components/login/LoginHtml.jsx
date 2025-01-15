@@ -4,6 +4,7 @@ import styles from "./Login.module.css";
 
 const LoginForm = ({ email, password, handleChange, handleSubmit }) => (
   <div className={styles["login-container"]}>
+    <h2>Bienvenido a la gestión de tareas</h2>
     <form onSubmit={handleSubmit} className={styles["login-form"]}>
       <div>
         <label>Email:</label>

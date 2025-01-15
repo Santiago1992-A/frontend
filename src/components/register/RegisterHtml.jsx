@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Register.module.css";
 const RegisterForm = ({ email, password, handleChange, handleSubmit }) => (
   <div className={styles["register-container"]}>
+    <h2>Registro</h2>
     <form onSubmit={handleSubmit} className={styles["register-form"]}>
       <div>
         <label>Email:</label>
